@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+#conteudo {
+		width: 100%;
+		float: right;		
+		}
+
+figure {
+    display: inline-block;
+    border: 0px dotted gray;
+    margin: 20px; /* adjust as needed */
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    border: 1px dotted blue;
+    text-align: center;
+}
+
+aside p {
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+  font-size: 25px;
+}
+
+.grid-container {
+  display: grid;
+  width: 100%;
+  float: center;
+  grid-template-columns: auto auto;
+  gap: 5px 5px;
+}
+
+.grid-container > div {
+  text-align: center;
+  font-size: 13px;
+  line-height: 0.2;
+}
+
+.item5 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.row1 {
+  float: center;
+  margin: 10px;
+  width: 50%;
+}
+
+.row2 {
+  float: center;
+  margin: 10px;
+  width: 30%;
+}
+
+
+
